@@ -213,4 +213,4 @@ async def handle_private(message: pyrogram.types.messages_and_media.message.Mess
     os.remove(file)
     if os.path.exists(f'{message.id}upstatus.txt'):
         os.remove(f'{message.id}upstatus.txt')
-    await bot.delete_messages(message
+    await bot.delete_messages(message)
